@@ -7,4 +7,6 @@
 
 import Foundation
 
-// Model  
+struct User {
+    let name: String
+}

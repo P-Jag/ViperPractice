@@ -7,8 +7,23 @@
 
 import Foundation
 
-// object
-// protocol
-// reference to view, interactor and router
+protocol AnyPresenter {
+    var router: AnyRouter? { get set }
+    var interactor: AnyInteractor? { get set }
+    var view: AnyView? { get set }
+    
+    //set functions to react on changes in interactor
+    func interactorDidFetchUsers(with result: Result<[User],Error>)
+}
 
-//it's telling view what to do - what to display (from data which presenter gets from interactor)
+class UserPresenter: AnyPresenter {
+    
+    var interactor: AnyInteractor?
+    
+    var view: AnyView?
+    
+    var router: AnyRouter?
+    
+    func interactorDidFetchUsers(with result: Result<[User], Error>) {
+    }
+}

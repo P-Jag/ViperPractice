@@ -7,6 +7,18 @@
 
 import Foundation
 
-// object
-// protocol
-// reference to presenter (only)
+protocol AnyInteractor {
+    var presenter: AnyPresenter? { get set }
+    
+    func getUsers()
+    // co completion handler. We want to infrom presenter while everything is ready
+}
+
+class UserInteractor: AnyInteractor {
+    
+    var presenter: AnyPresenter?
+    
+    func getUsers() {
+    
+    }
+}

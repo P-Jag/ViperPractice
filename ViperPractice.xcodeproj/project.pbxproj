@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8838435D2719B35A00363746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838435C2719B35A00363746 /* AppDelegate.swift */; };
 		8838435F2719B35A00363746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838435E2719B35A00363746 /* SceneDelegate.swift */; };
-		883843612719B35A00363746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883843602719B35A00363746 /* ViewController.swift */; };
 		883843662719B35D00363746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883843652719B35D00363746 /* Assets.xcassets */; };
 		883843692719B35D00363746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883843672719B35D00363746 /* LaunchScreen.storyboard */; };
 		883843722719B39600363746 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883843712719B39600363746 /* View.swift */; };
@@ -23,7 +22,6 @@
 		883843592719B35A00363746 /* ViperPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838435C2719B35A00363746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8838435E2719B35A00363746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		883843602719B35A00363746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		883843652719B35D00363746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883843682719B35D00363746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8838436A2719B35D00363746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				883843702719B38800363746 /* VIPER */,
 				8838435C2719B35A00363746 /* AppDelegate.swift */,
 				8838435E2719B35A00363746 /* SceneDelegate.swift */,
-				883843602719B35A00363746 /* ViewController.swift */,
 				883843652719B35D00363746 /* Assets.xcassets */,
 				883843672719B35D00363746 /* LaunchScreen.storyboard */,
 				8838436A2719B35D00363746 /* Info.plist */,
@@ -160,7 +157,6 @@
 				883843762719B3A800363746 /* Presenter.swift in Sources */,
 				883843722719B39600363746 /* View.swift in Sources */,
 				883843782719B3B200363746 /* Entity.swift in Sources */,
-				883843612719B35A00363746 /* ViewController.swift in Sources */,
 				883843742719B3A000363746 /* Interactor.swift in Sources */,
 				8838435D2719B35A00363746 /* AppDelegate.swift in Sources */,
 				8838435F2719B35A00363746 /* SceneDelegate.swift in Sources */,
